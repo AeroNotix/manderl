@@ -1,0 +1,18 @@
+{application, manderl,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  crypto,
+                  public_key,
+                  ssl,
+                  hackney
+                 ]},
+  {mod, { manderl_app, []}},
+  {env, [
+    {endpoint, "https://mandrillapp.com/api/1.0/"}
+  ]}
+ ]}.

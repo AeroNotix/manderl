@@ -1,0 +1,7 @@
+%% encoding: UTF-8
+{application,manderl}.
+{packages,[]}.
+{modules,[manderl_exports,manderl_inbound,manderl_ips,manderl_messages,
+          manderl_metadata,manderl_rejects,manderl_senders,
+          manderl_subaccounts,manderl_tags,manderl_templates,manderl_urls,
+          manderl_users,manderl_webhooks,manderl_whitelists]}.
